@@ -1,0 +1,49 @@
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}    
+.input{
+    width: 402px;
+    height: 105px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    margin-bottom: 22px;
+}
+.button{
+    background: #4BB543;
+    width: 402px;
+    height: 105px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.login__container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 473px;
+    height: 451px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+.input::placeholder{
+    padding-left: 33px;
+    font-size: 18px;
+    color: #000000;
+}
+.cadastro{
+    font-size: 18px;
+    padding-top: 50px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.button{
+    background: #4BB543;
+    width: 402px;
+    height: 105px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.confir__container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 473px;
+    height: 451px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+.cancelar{
+    font-size: 18px;
+    padding-top: 40px;
+    background: transparent;
+    border: none;
+    margin-bottom: 53px;
+}
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}  
+.texto__idade{
+    margin-top: 35px;
+    font-size: 18px;
+}
+.idade{
+    margin-bottom: 30px;
+    font-size: 96px;
+}
